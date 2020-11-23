@@ -17,6 +17,7 @@ nav .navbar-brand {
 
 nav #burger_menu {
   width: 50px;
+  border: none;
 }
 
 nav li {
@@ -31,5 +32,66 @@ nav li a {
 
 nav li #contact {
   border: 3px solid rgba(255, 255, 255, 0.425);
+}
+
+#landing_page_1 {
+  margin-top: 10%;
+  line-height: 1;
+}
+
+#landing_page_1 .header_text {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Pacifico", cursive;
+}
+
+#landing_page_1 #arrow_icon {
+  color: black;
+  position: relative;
+  margin-top: 10%;
+}
+
+#landing_page_1 #arrow_icon:hover {
+  -webkit-animation-name: moving_arrow;
+          animation-name: moving_arrow;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes moving_arrow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 25px;
+  }
+  100% {
+    left: 45px;
+  }
+}
+
+@keyframes moving_arrow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 25px;
+  }
+  100% {
+    left: 45px;
+  }
+}
+
+.landing_page_2 {
+  font-family: "Domine", serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 100vh;
 }
 /*# sourceMappingURL=index.css.map */
