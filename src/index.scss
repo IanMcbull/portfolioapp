@@ -1,0 +1,32 @@
+$primary-color:#7fd4ae;
+$secondary-color:#D47FA5;
+$font-pack:'Domine', serif;
+$font-pack-2:'Pacifico', cursive;
+body{
+    margin:0;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    overflow-y: hidden;
+    font-family: $font-pack;
+    height: 100vh;
+}
+nav{
+    font-weight: bolder;
+    .navbar-brand{
+        color: black;
+        font-size: x-large;
+    }
+    #burger_menu{
+        width: 50px;
+    }
+    li{
+        margin-right: 50px;
+        a{
+            color: black;
+            font-size: 17px;
+            padding: 10px;
+        }
+        #contact{
+            border: 3px solid rgba(255, 255, 255, 0.425);
+        }
+    }
+}
