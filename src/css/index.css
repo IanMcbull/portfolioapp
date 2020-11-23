@@ -52,6 +52,7 @@ nav li #contact {
 }
 
 #landing_page_1 #arrow_icon:hover {
+  color: black;
   -webkit-animation-name: moving_arrow;
           animation-name: moving_arrow;
   -webkit-animation-duration: 2s;

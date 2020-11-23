@@ -44,6 +44,7 @@ nav{
         position: relative;
         margin-top: 10%;
         &:hover{
+        color:black;    
         animation-name: moving_arrow;
         animation-duration: 2s;
         animation-iteration-count: infinite;
