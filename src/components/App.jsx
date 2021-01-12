@@ -8,7 +8,7 @@ export default class App extends React.Component {
         <div id="landing_page_1" className="container">
           <div className="d-flex">
             <div className="d-flex flex-column">
-              <p className="display-3">
+              <p className="display-3 content">
                 Hi there!
                 <br />
                 My name is Ian.

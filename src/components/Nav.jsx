@@ -5,7 +5,7 @@ export default class Nav extends Component{
         return(
             <nav className="navbar navbar-expand-md">
              <a className="navbar-brand" href="index.html">Ian Mugenya</a>
-             <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+             <button className="navbar-toggler" data-toggle="collapse" data-target="#menu">
                <span><img src={logo} alt="website logo" id="burger_menu"/></span>
              </button>
              <div className="navbar-collapse collapse" id="menu">
