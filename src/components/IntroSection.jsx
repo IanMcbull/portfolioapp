@@ -5,7 +5,7 @@
 
  const IntroSection = () => {
     return (
-        <div className="row w-100 mb-5" id="header-section">
+        <div className="row w-100 mb-5 mt-5" id="header-section">
         
       <div className="col-md-6">
         <div className="display-flex flex-column p-4">
@@ -15,9 +15,9 @@
             <span className="text-warning">painter</span> you might be thinking of.
             I paint the <span style={{color: 'palevioletred'}}>internet</span>.
           </p>
-          <p id="header-text-footer" className="text-justify">
-            Am a <span className="text-danger">Web</span>
-            <span style={{color: 'green'}}>Designer</span> based in Nairobi, Kenya
+          <p id="header-text-footer" className="text-justify">I 
+            am a <span className="text-danger">Web</span>
+            <span style={{color: 'green'}}> Designer</span> based in Nairobi, Kenya
             with a keen eye for design and who enjoys solving complex design problems.
           </p>
           <h6 id="connect">Get in touch</h6>

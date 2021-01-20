@@ -28,9 +28,7 @@ nav li a {
   padding: 10px;
 }
 
-nav li #contact {
-  border: 3px solid rgba(255, 255, 255, 0.425);
-}
+
 #header-text{
   margin-top: 20px;
   font-size: 30px;
@@ -153,4 +151,21 @@ nav li #contact {
 #html{
   height: 60px;
   background-color: rgba(210, 30, 30, 0.664);
+}
+.navbar a{
+  transition: all .3s ease-in-out;
+}
+.navbar.active{
+  background-color: #000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.navbar.active a{
+  color: #fff;
+}
+.nav.active .cont{
+  padding: 10px 0;
+}
+.navbar a.current, .navbar a:hover{
+  color: #c0392b;
+  font-weight: bold;
 }
