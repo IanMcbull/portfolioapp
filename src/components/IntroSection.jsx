@@ -12,7 +12,7 @@
           <p id="header-text">
             <span className="text-info" style={{fontSize: 'larger'}}>Hi there!</span> My name is Ian and I am a
             painter. Not the kind of
-            <span class="text-warning">painter</span> you might be thinking of.
+            <span className="text-warning">painter</span> you might be thinking of.
             I paint the <span style={{color: 'palevioletred'}}>internet</span>.
           </p>
           <p id="header-text-footer" className="text-justify">
