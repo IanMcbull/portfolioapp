@@ -10,6 +10,3 @@ ReactDom.render(
     document.querySelector('#root')
 )
 
-document.querySelector('#arrow_icon').addEventListener('click',function(){
-    document.body.style.backgroundColor = 'blue'; 
-})
