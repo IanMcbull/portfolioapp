@@ -12,7 +12,7 @@
           <p id="header-text">
             <span className="text-info" style={{fontSize: 'larger'}}>Hi there!</span> My name is Ian and I am a
             painter. Not the kind of
-            <span className="text-warning">painter</span> you might be thinking of.
+             <span className="text-warning"> painter</span> you might be thinking of.
             I paint the <span style={{color: 'palevioletred'}}>internet</span>.
           </p>
           <p id="header-text-footer" className="text-justify">I 
@@ -23,7 +23,7 @@
           <h6 id="connect">Get in touch</h6>
           <div className="d-flex">
               <a href="https://facebook.com"><img src={facebook_i} style={{width: '60px'}} alt='facebook logo'/></a>
-              <a href="https://twitter.com"><img src={twitter_i} style={{width: '60px'}} alt='twitter logo'/></a>
+              <a href="https://twitter.com/home"><img src={twitter_i} style={{width: '60px'}} alt='twitter logo'/></a>
              <a href="https://www.instagram.com/i_mugenya/"><img src={instagram_i} style={{width: '60px'}} alt='instagram logo'/></a>
             </div>
         </div>
