@@ -30,7 +30,7 @@ export default class Nav extends Component{
                    <a className="nav-link" href="#skills">Skills</a>
                 </li>
                 <li className="nav-item">
-                   <a className="nav-link" href="#contact" id="contact">Contact</a>
+                   <a className="nav-link" href="#contact_section" id="contact">Contact</a>
                 </li>
                </ul>
              </div>
