@@ -1,4 +1,4 @@
-    const launchDate = new Date('02/05/2021 08:00:00');
+    const launchDate = new Date('02/22/2021 08:00:00');
     let today = new Date().getTime();
     let difference = launchDate - today;
     let days = Math.floor(difference / (1000 * 60 * 60 * 24));
