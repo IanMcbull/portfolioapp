@@ -98,11 +98,7 @@ nav li #contact {
 }
 #projects{
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://assets5.lottiefiles.com/packages/lf20_agk79xb1.json');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
   height: 300px;
-  background-position: center;
 }
 @media (max-width:8000px){
   #header-text{
